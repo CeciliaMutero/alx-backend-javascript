@@ -1,6 +1,7 @@
 export default class Building {
   constructor(sqft) {
     if (
+      // eslint-disable-next-line operator-linebreak
       this.constructor !== Building &&
       typeof this.evacuationWarningMessage !== 'function'
     ) {

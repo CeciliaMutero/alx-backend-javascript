@@ -27,7 +27,7 @@ export default class Currency {
     if (typeof value === 'string') {
       this._name = value;
     } else {
-      throw new TypeError('Nmae must be a string');
+      throw new TypeError('Name must be a string');
     }
   }
 
